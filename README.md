@@ -1,3 +1,7 @@
-# go patterns
+# go design patterns
 
-golang impl patterns and make a mark
+Golang implements design patterns.
+
+## Creational pattern
+
+### Singleton pattern
