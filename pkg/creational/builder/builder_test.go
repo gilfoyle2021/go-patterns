@@ -1,11 +1,8 @@
 package builder
 
-import (
-	"testing"
-)
+import "testing"
 
 func TestSmallCar_Drive(t *testing.T) {
-
 	type fields struct {
 		Color Color
 		Speed Speed
@@ -18,7 +15,6 @@ func TestSmallCar_Drive(t *testing.T) {
 	}{
 		// TODO: Add test cases.
 	}
-
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			sc := &SmallCar{
